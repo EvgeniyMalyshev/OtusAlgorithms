@@ -3,7 +3,7 @@ import org.junit.Assert;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-public class Test {
+public class LuckyNumbers {
 
     @org.junit.Test
     public void LengthTest(){
