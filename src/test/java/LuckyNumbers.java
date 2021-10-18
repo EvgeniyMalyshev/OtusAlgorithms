@@ -1,6 +1,5 @@
 import org.junit.Assert;
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 
 public class LuckyNumbers {
