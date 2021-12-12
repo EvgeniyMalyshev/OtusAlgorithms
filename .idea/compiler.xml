@@ -6,11 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="OtusAlgorithms" />
+        <module name="05-arrays" />
+        <module name="02-testing" />
+        <module name="03-chess" />
+        <module name="util" />
+        <module name="01-spells" />
+        <module name="04-numbers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="01-spells" target="11" />
+      <module name="02-testing" target="11" />
+      <module name="03-chess" target="11" />
+      <module name="04-numbers" target="11" />
+      <module name="05-arrays" target="11" />
       <module name="OtusAlgorithms" target="11" />
+      <module name="util" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
