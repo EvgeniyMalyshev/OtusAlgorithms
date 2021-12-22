@@ -1,4 +1,3 @@
-
 import arrays.list.FactorArrayList;
 import org.junit.Assert;
 import org.junit.Test;

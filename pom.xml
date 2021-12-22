@@ -15,9 +15,16 @@
         <module>03-chess</module>
         <module>04-numbers</module>
         <module>05-arrays</module>
+        <module>06-heapsort</module>
     </modules>
 
     <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
