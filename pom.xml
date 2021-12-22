@@ -18,6 +18,7 @@
         <module>06-heapsort</module>
         <module>07-billione</module>
         <module>08-binary_tree</module>
+        <module>another_tree</module>
     </modules>
 
     <dependencies>
