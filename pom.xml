@@ -16,6 +16,8 @@
         <module>04-numbers</module>
         <module>05-arrays</module>
         <module>06-heapsort</module>
+        <module>07-billione</module>
+        <module>08-binary_tree</module>
     </modules>
 
     <dependencies>
