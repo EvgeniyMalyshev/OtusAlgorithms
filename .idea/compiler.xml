@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="10-hash_table" />
         <module name="06-heapsort" />
         <module name="09-red_black_tree" />
         <module name="05-arrays" />
@@ -28,6 +29,7 @@
       <module name="07-billione" target="11" />
       <module name="08-binary_tree" target="11" />
       <module name="09-red_black_tree" target="11" />
+      <module name="10-hash_table" target="11" />
       <module name="OtusAlgorithms" target="11" />
       <module name="util" target="11" />
     </bytecodeTargetLevel>
