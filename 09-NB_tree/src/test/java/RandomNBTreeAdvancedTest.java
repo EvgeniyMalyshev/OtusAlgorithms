@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class RandomBRTreeAdvancedTest {
+class RandomNBTreeAdvancedTest {
 
     private static final int HEAD_KEY = 10;
     private static final int LEFT_KEY = 5;
@@ -30,28 +30,28 @@ class RandomBRTreeAdvancedTest {
         root.right = new RandomNode(RIGHT_KEY);
         root.right.left = new RandomNode(RIGHT_LEFT_KEY);
         root.right.right = new RandomNode(RIGHT_RIGHT_KEY);
-        RandomBRTree.updateSize(root.right);
-        RandomBRTree.updateSize(root.left);
-        RandomBRTree.updateSize(root);
+        RandomNBTree.updateSize(root.right);
+        RandomNBTree.updateSize(root.left);
+        RandomNBTree.updateSize(root);
         return root;
     }
 
     @Test
     void testNodeSize() {
         assertEquals(7, root.size);
-        assertEquals(7, RandomBRTree.nodeSize(root));
+        assertEquals(7, RandomNBTree.nodeSize(root));
         assertEquals(3, root.left.size);
-        assertEquals(3, RandomBRTree.nodeSize(root.left));
+        assertEquals(3, RandomNBTree.nodeSize(root.left));
         assertEquals(3, root.right.size);
-        assertEquals(3, RandomBRTree.nodeSize(root.right));
+        assertEquals(3, RandomNBTree.nodeSize(root.right));
         assertEquals(1, root.left.left.size);
-        assertEquals(1, RandomBRTree.nodeSize(root.left.left));
+        assertEquals(1, RandomNBTree.nodeSize(root.left.left));
         assertEquals(1, root.left.right.size);
-        assertEquals(1, RandomBRTree.nodeSize(root.left.right));
+        assertEquals(1, RandomNBTree.nodeSize(root.left.right));
         assertEquals(1, root.right.left.size);
-        assertEquals(1, RandomBRTree.nodeSize(root.right.left));
+        assertEquals(1, RandomNBTree.nodeSize(root.right.left));
         assertEquals(1, root.right.right.size);
-        assertEquals(1, RandomBRTree.nodeSize(root.right.right));
+        assertEquals(1, RandomNBTree.nodeSize(root.right.right));
     }
 
     @Test
@@ -63,7 +63,7 @@ class RandomBRTreeAdvancedTest {
     }
 
     private void rotateLeftOfLeaf(RandomNode leaf) {
-        RandomNode node = RandomBRTree.rotateLeft(leaf);
+        RandomNode node = RandomNBTree.rotateLeft(leaf);
         assertEquals(leaf.key, node.key);
         assertEquals(1, leaf.size);
         assertEquals(KEYS.length, root.size);
@@ -78,7 +78,7 @@ class RandomBRTreeAdvancedTest {
     }
 
     private void rotateRightOfLeaf(RandomNode leaf) {
-        RandomNode node = RandomBRTree.rotateRight(leaf);
+        RandomNode node = RandomNBTree.rotateRight(leaf);
         assertEquals(leaf.key, node.key);
         assertEquals(1, leaf.size);
         assertEquals(KEYS.length, root.size);
@@ -86,7 +86,7 @@ class RandomBRTreeAdvancedTest {
 
     @Test
     public void insertRoot() {
-        root = RandomBRTree.insertRoot(root, 40);
+        root = RandomNBTree.insertRoot(root, 40);
         assertEquals(KEYS.length + 1, root.size);
     }
 }

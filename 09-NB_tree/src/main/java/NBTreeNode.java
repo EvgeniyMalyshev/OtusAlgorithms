@@ -1,11 +1,11 @@
-public class BRTreeNode implements TreeNode {
+public class NBTreeNode implements TreeNode {
 
     private int key;
     private TreeNode parent;
     private TreeNode left;
     private TreeNode right;
 
-    public BRTreeNode(int key) {
+    public NBTreeNode(int key) {
         this.key = key;
     }
 

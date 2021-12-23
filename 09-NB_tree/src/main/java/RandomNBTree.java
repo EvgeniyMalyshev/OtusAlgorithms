@@ -1,7 +1,7 @@
 import java.util.Optional;
 import java.util.Random;
 
-public class RandomBRTree implements IntTree, HasSize {
+public class RandomNBTree implements IntTree, HasSize {
 
     private static final Random random = new Random(System.currentTimeMillis());
 

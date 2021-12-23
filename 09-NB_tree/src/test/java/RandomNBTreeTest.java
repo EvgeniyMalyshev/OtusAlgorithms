@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RandomBRTreeTest {
+class RandomNBTreeTest {
 
     private static final int HEAD_KEY = 10;
     private static final int LEFT_KEY = 5;
@@ -16,11 +16,11 @@ class RandomBRTreeTest {
     private static final int[] KEYS = new int[]{
             HEAD_KEY, LEFT_KEY, RIGHT_KEY, LEFT_LEFT_KEY, LEFT_RIGHT_KEY, RIGHT_LEFT_KEY, RIGHT_RIGHT_KEY};
 
-    private RandomBRTree tree;
+    private RandomNBTree tree;
 
     @BeforeEach
     void setUp() {
-        tree = new RandomBRTree();
+        tree = new RandomNBTree();
     }
 
     @Test

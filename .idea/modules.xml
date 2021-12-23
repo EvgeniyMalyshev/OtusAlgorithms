@@ -10,7 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/06-heapsort/06-heapsort.iml" filepath="$PROJECT_DIR$/06-heapsort/06-heapsort.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-billione/07-billione.iml" filepath="$PROJECT_DIR$/07-billione/07-billione.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-binary_tree/08-binary_tree.iml" filepath="$PROJECT_DIR$/08-binary_tree/08-binary_tree.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-red_black_tree/09-red_black_tree.iml" filepath="$PROJECT_DIR$/09-red_black_tree/09-red_black_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-NB_tree/09-NB_tree.iml" filepath="$PROJECT_DIR$/09-NB_tree/09-NB_tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-hash_table/10-hash_table.iml" filepath="$PROJECT_DIR$/10-hash_table/10-hash_table.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OtusAlgorithms.iml" filepath="$PROJECT_DIR$/.idea/OtusAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
