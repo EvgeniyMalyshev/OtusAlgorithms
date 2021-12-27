@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/08-binary_tree/08-binary_tree.iml" filepath="$PROJECT_DIR$/08-binary_tree/08-binary_tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-NB_tree/09-NB_tree.iml" filepath="$PROJECT_DIR$/09-NB_tree/09-NB_tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-hash_table/10-hash_table.iml" filepath="$PROJECT_DIR$/10-hash_table/10-hash_table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-qusareio/11-qusareio.iml" filepath="$PROJECT_DIR$/11-qusareio/11-qusareio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-demukron/12-demukron.iml" filepath="$PROJECT_DIR$/12-demukron/12-demukron.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OtusAlgorithms.iml" filepath="$PROJECT_DIR$/.idea/OtusAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
     </modules>
