@@ -18,8 +18,9 @@
         <module>06-heapsort</module>
         <module>07-billione</module>
         <module>08-binary_tree</module>
-        <module>09-red_black_tree</module>
+        <module>09-NB_tree</module>
         <module>10-hash_table</module>
+        <module>12-demukron</module>
     </modules>
 
     <dependencies>
