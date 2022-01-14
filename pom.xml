@@ -21,6 +21,7 @@
         <module>09-NB_tree</module>
         <module>10-hash_table</module>
         <module>12-demukron</module>
+        <module>13-minimum</module>
         <module>14-deikstra</module>
     </modules>
 
