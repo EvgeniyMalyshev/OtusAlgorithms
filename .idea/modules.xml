@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/09-NB_tree/09-NB_tree.iml" filepath="$PROJECT_DIR$/09-NB_tree/09-NB_tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-hash_table/10-hash_table.iml" filepath="$PROJECT_DIR$/10-hash_table/10-hash_table.iml" />
       <module fileurl="file://$PROJECT_DIR$/12-demukron/12-demukron.iml" filepath="$PROJECT_DIR$/12-demukron/12-demukron.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-minimum/13-minimum.iml" filepath="$PROJECT_DIR$/13-minimum/13-minimum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-deikstra/14-deikstra.iml" filepath="$PROJECT_DIR$/14-deikstra/14-deikstra.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OtusAlgorithms.iml" filepath="$PROJECT_DIR$/.idea/OtusAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
     </modules>

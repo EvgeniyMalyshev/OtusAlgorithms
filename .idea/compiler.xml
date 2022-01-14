@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="09-NB_tree" />
-        <module name="05-arrays" />
+        <module name="04-numbers" />
+        <module name="07-billione" />
+        <module name="util" />
+        <module name="14-deikstra" />
         <module name="10-hash_table" />
+        <module name="09-NB_tree" />
         <module name="02-testing" />
-        <module name="12-demukron" />
+        <module name="08-binary_tree" />
+        <module name="01-spells" />
         <module name="06-heapsort" />
         <module name="03-chess" />
-        <module name="util" />
-        <module name="01-spells" />
-        <module name="04-numbers" />
-        <module name="08-binary_tree" />
-        <module name="07-billione" />
+        <module name="12-demukron" />
+        <module name="13-minimum" />
+        <module name="05-arrays" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +34,8 @@
       <module name="09-NB_tree" target="11" />
       <module name="10-hash_table" target="11" />
       <module name="12-demukron" target="11" />
+      <module name="13-minimum" target="11" />
+      <module name="14-deikstra" target="11" />
       <module name="OtusAlgorithms" target="11" />
       <module name="util" target="11" />
     </bytecodeTargetLevel>
